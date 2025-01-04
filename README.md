@@ -9,4 +9,4 @@ It covers:
 - How the referral program works
 - A step-by-step guide to getting started
 
-### [getgrass.andreo.dev](getgrass.andreo.dev)
+### [getgrass.andreo.dev](https://getgrass.andreo.dev)

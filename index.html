@@ -5,116 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5367/5367613.png" ty pe="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Get Started With Grass!</title>
 
     <!-- Google tag (gtag.js) -->
     <script src="https://www.googletagmanager.com/gtag/js?id=AW-11536322223" defer></script>
-    <script>
+    <script src="script.js" defer></script>
 
-        const redirectLink = "https://app.getgrass.io/register/?referralCode=CJhlmZrHFMLP0m1";
 
-        // google tag script
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'AW-11536322223');
-
-    </script>
-
-    <style>
-        body {
-            background-color: #F2FED1;
-            font-family: 'Roboto', sans-serif;
-            font-size: 18px;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            height: 100vh;
-            overflow: auto;
-        }
-
-        .container {
-            width: 80%;
-            max-width: 1200px;
-            padding: 20px;
-
-        }
-
-        img {
-            width: 100%;
-
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            line-height: 1.4;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        button {
-            padding: 12px 24px;
-            background-color: #abf600;
-            border: 1px solid black;
-            cursor: pointer;
-            font-size: 16px;
-            color: black;
-            margin: 5px 0px 15px 0px;
-            border-radius: 9999px;
-            box-shadow: none;
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        button:hover {
-            box-shadow: 0px 5px 0px 0px #191A23;
-        }
-
-        footer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding-top: 3rem;
-            padding-bottom: 0.5rem;
-        }
-
-        footer p {
-            margin-bottom: 0;
-            margin-top: 0;
-
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
 
-        <h1>Get Started with GRASS</h1>
-        <h2>An Introduction to Earning with Grass Tokens</h2>
+        <h1>Get Started with Grass!</h1>
+        <h2>Your Guide to Farming and Staking Grass for Passive Income</h2>
 
-        <img src="./grass1.png" alt="grass-hero">
+        <img src="./grass.webp" alt="grass-hero">
 
-        <p>Welcome to the future of digital farming with GRASS tokens! If you're here, it's because you want to learn
-            more
-            about how to make money by simply farming these incredible tokens. Whether you're new to crypto or looking
-            to
-            expand your digital portfolio, this guide will walk you through everything you need to know about the GRASS
+        <p>Welcome to the future of digital farming with Grass tokens! If you're here, it's probably because you already
+            heard a thing of two about the project.
+            Whether you're new to crypto or looking to expand your digital portfolio, this guide will walk you through
+            everything you need to know about the Grass
             project and how you can get started with it.</p>
 
         <h3>What is GRASS?</h3>
@@ -123,10 +36,11 @@
             These
             tokens, known as <strong>Grass Tokens</strong>, can be used for a variety of purposes, from staking to
             trading
-            or even redeeming rewards. The best part? You can earn these tokens by doing simple tasks that anyone can
-            do!
+            or even redeeming rewards. The best part? You can earn these tokens by simply sharing your unused bandwidth!
+            Sounds amazing right?
         </p>
-        <p>i
+        <h3>What is token farming?</h3>
+        <p>
             Think of it as "digital farming"—where you plant the seeds (sign up and participate), water them (engage
             with
             the platform), and reap the rewards (earn Grass Tokens). And the more active you are, the more you can earn.
@@ -199,11 +113,9 @@
         </p>
 
         <footer>
-            <p>
-                Written with ❤️ by <a href="https://github.com/andreo141" target="_blank"
-                    style="color: black; text-decoration: none;">andreo141</a>
-            </p>
-            <p>&copy; 2025 Andreo Van Onckelen. All rights reserved.</p>
+            <p>Written with 💚 by <a href="https://github.com/andreo141" target="_blank">
+                    andreo141 <i class="fa fa-github"></i> </a></p>
+            <p id="copyright"></p>
         </footer>
     </div>
 </body>
